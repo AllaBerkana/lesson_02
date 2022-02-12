@@ -5,19 +5,23 @@
 
 ### посмотреть настройки
 
-`git config --list`
+```
+git config --list
+```
 
-`git config --global user.name “имя”
-git config --global user.email “почта”`
+```git config --global user.name “имя”
+git config --global user.email “почта”
+```
 
 
-`git config --global core.safecrlf warn
+```git config --global core.safecrlf warn
 git config --global core.quotepath off
 git config --global init.defaultBranch main # Ветка по умолчанию
 windows
 git config --global core.autocrlf true
 MAC & UNIX
-git config --global core.autocrlf input`
+git config --global core.autocrlf input
+```
 
 ## Действия при инициализации нового репозитория и при работе с ним
 
@@ -41,9 +45,10 @@ git config --global core.autocrlf input`
 
 ### показывает изменения
 
-`shell
-`git diff`
-`git diff --color-words  //показывает по строкам изменения`
+```shell
+git diff`
+git diff --color-words  //показывает по строкам изменения
+```
 
 ## отменить коммит "ПЕРЕПИСЫВАЕТ ИСТОРИЮ"
 
