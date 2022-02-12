@@ -1,5 +1,4 @@
 # git-config
-======
 
 ## Действия после установки git
 
@@ -45,7 +44,7 @@ git config --global core.autocrlf input
 ### показывает изменения
 
 ```shell
-git diff`
+git diff
 git diff --color-words  //показывает по строкам изменения
 ```
 
