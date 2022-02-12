@@ -38,8 +38,7 @@ git config --global core.autocrlf input
 `git add .`
 
 ### выполнить коммит (сделать слепок) текущего состояния проекта
-```git commit -m "сообщение"
-```
+`git commit -m "сообщение"`
 
 `git log --oneline  посмотреть историю коммитов`
 
