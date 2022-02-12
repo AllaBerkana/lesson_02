@@ -8,7 +8,8 @@
 git config --list
 ```
 
-```git config --global user.name “имя”
+```
+git config --global user.name “имя”
 git config --global user.email “почта”
 ```
 
@@ -66,6 +67,7 @@ git checkout name.file`
 ## отправить изменения в удаленный репозиторий
 ```
 git push 
+
 клонирование репозитория
 git clone https://github.com/Quper87/git-lesson.git
 сохраняет изменения отслеживаемых файлов и выполняет коммит
